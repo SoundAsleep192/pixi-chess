@@ -1,0 +1,108 @@
+{"frames": {
+
+"bishop_black.svg":
+{
+	"frame": {"x":0,"y":0,"w":45,"h":45},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":45,"h":45},
+	"sourceSize": {"w":45,"h":45}
+},
+"bishop_white.svg":
+{
+	"frame": {"x":45,"y":0,"w":45,"h":45},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":45,"h":45},
+	"sourceSize": {"w":45,"h":45}
+},
+"king_black.svg":
+{
+	"frame": {"x":90,"y":0,"w":45,"h":45},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":45,"h":45},
+	"sourceSize": {"w":45,"h":45}
+},
+"king_white.svg":
+{
+	"frame": {"x":135,"y":0,"w":45,"h":45},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":45,"h":45},
+	"sourceSize": {"w":45,"h":45}
+},
+"knight_black.svg":
+{
+	"frame": {"x":180,"y":0,"w":45,"h":45},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":45,"h":45},
+	"sourceSize": {"w":45,"h":45}
+},
+"knight_white.svg":
+{
+	"frame": {"x":225,"y":0,"w":45,"h":45},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":45,"h":45},
+	"sourceSize": {"w":45,"h":45}
+},
+"pawn_black.svg":
+{
+	"frame": {"x":270,"y":0,"w":45,"h":45},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":45,"h":45},
+	"sourceSize": {"w":45,"h":45}
+},
+"pawn_white.svg":
+{
+	"frame": {"x":315,"y":0,"w":45,"h":45},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":45,"h":45},
+	"sourceSize": {"w":45,"h":45}
+},
+"queen_black.svg":
+{
+	"frame": {"x":360,"y":0,"w":45,"h":45},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":45,"h":45},
+	"sourceSize": {"w":45,"h":45}
+},
+"queen_white.svg":
+{
+	"frame": {"x":405,"y":0,"w":45,"h":45},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":45,"h":45},
+	"sourceSize": {"w":45,"h":45}
+},
+"rook_black.svg":
+{
+	"frame": {"x":450,"y":0,"w":45,"h":45},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":45,"h":45},
+	"sourceSize": {"w":45,"h":45}
+},
+"rook_white.svg":
+{
+	"frame": {"x":495,"y":0,"w":45,"h":45},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":45,"h":45},
+	"sourceSize": {"w":45,"h":45}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "chess_sprites.png",
+	"format": "RGBA8888",
+	"size": {"w":540,"h":45},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:8b6331cbd7b0765c2d11133b1426eb0f:40942453ca5ef2bd936c46077759bc67:e30473d47d319cfb4ad11ee41f17a862$"
+}
+}

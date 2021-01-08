@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+    },
+    "paths": {
+        "~*": [
+            "./*"
+        ]
+    },
+    "include": [
+        "src/**/*",
+        "assets.d.ts"
+    ]
+}
