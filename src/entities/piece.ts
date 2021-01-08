@@ -1,6 +1,6 @@
 import { PieceType, PlayerColor, PositionX, PositionY } from "constants";
-import { GameStateService } from "services/game-state.service";
-import { inject } from "tsyringe";
+import { gameStateService } from "../services/game-state.service";
+import { renderService } from "../services/render.service";
 import { v4 } from 'uuid';
 
 /** Represents a piece on the board */
@@ -24,14 +24,22 @@ export class Piece {
 
   private _alive: boolean;
 
+  private gameStateService = gameStateService;
+  private renderService = renderService;
+
   constructor(
     /** Type of the piece */
     public readonly type: PieceType,
-    /** Color of the */
+    /** Color of the piece */
     public readonly color: PlayerColor,
-    @inject('GameStateSerivce') private gameStateService: GameStateService) {
+    public readonly x: PositionX,
+    public readonly y: PositionY
+  ) {
     this.id = v4();
     this._alive = true;
+    this._x = x;
+    this._y = y;
+    this.renderService.addPiece(this);
   }
 
   /** Moves the piece to the specified position on the board */
@@ -40,16 +48,16 @@ export class Piece {
     this._y = y;
   }
 
-  /** States that this pieces has killed another piece */
-  public kill(piece: Piece): void {
-    piece.die();
-  }
-
   /** States that the piece has been killed */
   public die(): void {
     this._alive = false;
     if (this.type === PieceType.KING) {
       this.gameStateService.declareVictory(this.color === PlayerColor.BLACK ? PlayerColor.WHITE : PlayerColor.BLACK);
     }
+  }
+
+  /** States that this pieces has killed another piece */
+  private kill(piece: Piece): void {
+    piece.die();
   }
 }

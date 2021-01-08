@@ -1,10 +1,9 @@
-import { PlayerColor } from "constants";
-import { injectable, singleton } from "tsyringe";
+import { PlayerColor } from "../constants";
 
-@injectable()
-@singleton()
-export class GameStateService {
+class GameStateService {
   public declareVictory(playerColor: PlayerColor) {
     alert(`${playerColor} player won!`);
   }
 }
+
+export const gameStateService = new GameStateService();
