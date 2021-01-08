@@ -1,8 +1,12 @@
 {
     "compilerOptions": {
+        "target": "ESNext",
         "baseUrl": "./src",
+        "moduleResolution": "Node",
         "resolveJsonModule": true,
         "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
     },
     "paths": {
         "~*": [

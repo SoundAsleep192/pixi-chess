@@ -8,9 +8,12 @@
     "build": "parcel build index.hmtl"
   },
   "dependencies": {
-    "pixi.js": "^5.3.7"
+    "pixi.js": "^5.3.7",
+    "tsyringe": "^4.4.0",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
+    "@types/uuid": "^8.3.0",
     "parcel-bundler": "^1.12.4",
     "typescript": "^4.1.3"
   }
